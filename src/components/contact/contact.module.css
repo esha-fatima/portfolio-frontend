@@ -1,0 +1,237 @@
+.contactWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.imageSide {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    padding-right: 100px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contactSide {
+    flex:1;
+    width: 100%;
+    height: 100%;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* background-color: antiquewhite; */
+}
+
+.imageStyles {
+    width: 90%;
+    height: auto;
+}
+
+.nameContainer {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nameContainerTop {
+    display: flex;
+    flex-direction: row;
+}
+
+.nameHeading {
+    font-weight: bold;
+}
+
+.prof {
+    margin-left: 40px;
+}
+
+.inputFields {
+    width: 250px;
+    height: 30px;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #d67ed6;
+    margin-top: 7px;
+    margin-left: -7px;
+    padding: 7px;
+    text-overflow: ellipsis;
+    /* box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.6);; */
+}
+
+.textArea {
+    width: 350px;
+    height: 140px;
+    resize: none;
+    margin-left: -7px;
+    margin-top: 7px;
+    padding: 7px;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid #d67ed6;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.textArea:focus {
+    border: 3px solid #d67ed6;
+    outline: none;
+}
+
+.textArea::placeholder {
+    color: white;
+        opacity: 0.9;
+}
+
+.inputFieldsWorkplace {
+    width: 350px;
+        height: 30px;
+        font-size: 16px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid #d67ed6;
+        margin-top: 7px;
+        margin-left: -7px;
+        padding: 7px;
+        text-overflow: ellipsis;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.inputFieldsWorkplace::placeholder {
+    color: white;
+        opacity: 0.9;
+}
+
+.inputFieldsWorkplace:focus {
+    border: none;
+        border-bottom: 3px solid #d67ed6;
+    
+        outline: none;
+}
+
+.inputFields::placeholder {
+    color: #e3dae3;
+    opacity: 0.9;
+}
+
+.inputFields:focus {
+        border: none;
+        border-bottom: 3px solid #d67ed6;
+
+        outline: none;
+}
+
+.marginClass {
+    margin-top: 17px;
+}
+
+.professionWidth {
+    width: 300px;
+}
+
+.sendButton {
+    margin-top: 17px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    padding: 15px;
+    width: fit-content;
+    border-radius: 50px;
+    /* background-color: rgb(241, 234, 234, 0.3); */
+    color: #fdf8fd;
+    z-index:  20;
+    border: 3px solid #d67ed6;
+}
+
+.sendButton:hover{
+    background-color: #fdf8fd;
+    color: #6c2b63;
+    z-index: 20;
+    border: 3px solid #6c2b63;
+    cursor: pointer;
+
+}
+
+.sentButton {
+    margin-top: 17px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    padding: 15px;
+    width: fit-content;
+    border-radius: 50px;
+    z-index: 20;
+    background-color: #fdf8fd;
+    color: #6c2b63;
+    z-index: 20;
+    border: 3px solid #6c2b63;
+}
+
+.sendContainer {
+    margin-left: -7px;
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    align-items: center;
+    
+    justify-content: center;
+}
+
+.loadingContainer {
+    margin-left: -7px;
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    align-items: flex-end;
+    height: 40px;
+    justify-content: center;
+}
+
+.sendText {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 15px;
+}
+
+.bouncingLoader {
+    display: flex;
+    justify-content: center;
+}
+
+.bouncingLoader>div {
+    width: 16px;
+    height: 16px;
+    margin: 3px 6px;
+    border-radius: 50%;
+    background-color: #d06ed9;
+    opacity: 1;
+    animation: bouncingLoader 0.6s infinite alternate;
+}
+
+@keyframes bouncingLoader {
+    to {
+        opacity: 0.1;
+        transform: translateY(-10px);
+    }
+}
+
+.bouncingLoader>div:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.bouncingLoader>div:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+

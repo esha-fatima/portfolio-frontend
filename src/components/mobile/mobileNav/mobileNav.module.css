@@ -1,0 +1,117 @@
+.hamburgerIcon {
+   
+}
+
+.mobileNavWrapper {
+    width: 100%;
+    background-color: rgba(40, 26, 40, 1);
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    position: fixed;
+    align-items: center;
+    z-index: 2;
+    justify-content: space-between;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+.rightSideNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconClasses {
+    margin-right: 20px;
+}
+
+.menuOptions {
+    position: fixed;
+    background-color:rgba(40, 26, 40, 0.8);
+    width: 100%;
+    top:80px;
+    display: flex;
+    flex-direction: column;
+    left: 0px;
+    transition: left 6 ease;
+    align-items: center;
+    padding: 100px;
+    height: 100%;
+}
+
+.menuOptionsContainer {
+
+width: 100%;
+height: 80px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-end;
+font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* border-bottom: 1px solid; */
+    text-shadow: 0 0 5px rgba(255, 255, 255, 1);
+
+}
+
+.menuOptionsContainerSelected {
+    width: 100%;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        /* border-bottom: 1px solid; */
+        text-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
+}
+
+.menuOptionsContainerOverlay {
+    width: 100%;
+        height: 80px;
+            padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        background-image: linear-gradient(to bottom, rgba(195, 174, 174, 0.1), rgba(255, 255, 255, 0.3));;
+
+}
+
+.iconContainer {
+    padding-top: 40px;
+    min-width: 200px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.unselectedRule {
+    margin-top: 5px;
+    display: none;
+    width: 0;
+    height: 2px;
+}
+
+.selectedRule {
+    margin-top: 6px;
+    animation: expandAnimation 0.5s ease;
+    width: 100px;
+    height: 2px;
+}
+
+@keyframes expandAnimation {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 100px;
+    }
+}

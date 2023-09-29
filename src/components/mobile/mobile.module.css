@@ -1,0 +1,871 @@
+.mobileWrapper {
+    width: 100%;
+    height: fit-content;
+    overflow-y: auto;
+    background-image: linear-gradient(to top, #86377b 20%, #27273c 80%);
+}
+
+.contentMobile {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.imageWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: 350px;
+    background-color: rgb(241, 234, 234, 0.3);
+    justify-content: center;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    animation: fadeIn 2s, bubble 4s infinite;
+    margin-top: 40px;
+
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.nameWrapper {
+    font-size: 20px;
+    font-family: clamp;
+    padding-top:20px
+
+}
+
+.intro {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color: #d6afd6;
+                font-size: 10px;
+                padding-left: 20px;
+                padding-right: 20px;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                margin-top: 10px;
+}
+
+.longIntro {
+    width: 96%;
+    height: fit-content;
+    text-align: flex-start;
+    /* background-color: rgba(222, 192, 222, 0.6); */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    margin-top: 15px;
+    line-height: 22px;
+    border-left: 5px solid rgba(222, 192, 222, 0.6) ;
+    margin-left: 20px;
+    font-size: 18px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.sectionTitle {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.workWrapper {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+    position: relative;
+
+}
+
+@media screen and (max-width: 1000px) {
+    .workWrapper {
+        width: 50%;
+        scale: 1.5;
+        margin-top: 50px;
+}
+.workHighlights {
+    margin-top: 100px;
+    scale: 1.5;
+
+}
+.imageStylesResearch {
+    width: 180px;
+}
+
+  .projHighlight {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      margin-left: 7%;
+  }
+
+  .projectDetailsHighlight {
+    font-size: 18px;
+  }
+
+  .projectDetailsList {
+    font-size: 18px;
+  }
+
+
+  .nameHeading {
+      font-size: 18px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+
+  .inputFieldsWorkplace {
+    font-size: 18px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .textArea {
+
+    font-size: 18px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+}
+
+@media screen and (max-width: 684px) {
+    .workWrapper {
+        width: 70%;
+        scale: 1;
+        margin-top: 20px;
+    }
+
+    .workHighlights {
+        margin-top: 30px;
+            scale: 1;
+    }
+.imageStylesResearch {
+    width: 120px;
+}
+.projHighlight {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 7%;
+}
+
+.longIntro {
+    font-size: 12px;
+}
+
+.projHighlight {
+        font-size: 20px;
+}
+
+.projectDetailsHighlight {
+    font-size: 12px;
+}
+.projectDetailsList {
+    font-size: 12px;
+}
+.projectDetailsListItem {
+    font-size: 12px;
+}
+
+.contactHeadingText {
+    font-size: 20px;
+}
+
+.nameHeading {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.inputFieldsWorkplace {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.textArea {
+
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+     
+}
+
+@media screen and (max-width: 450px) {
+    .workWrapper {
+        width: 90%;
+        scale: 1;
+        margin-top: 20px;
+    }
+
+        .contactHeadingText {
+            font-size: 20px;
+        }
+
+    .workHighlights {
+        margin-top: 20px;
+        scale: 1;
+    }
+
+   .imageStylesResearch {
+        width: 120px;
+   }
+
+ .projectDetailsList {
+     font-size: 12px;
+ }
+  .projectDetailsListItem {
+      font-size: 12px;
+  }
+
+  .nameHeading {
+      font-size: 16px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+
+  .inputFieldsWorkplace {
+      font-size: 16px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .textArea {
+
+      font-size: 16px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+    
+}
+
+
+.overlayLeft {
+    height: 80px;
+    width: 80px;
+    background-color: aliceblue;
+    opacity: 0.4;
+    margin-right: 4%;
+    border-radius: 10px;
+}
+
+.overlayRight {
+    height: 80px;
+    width: 80px;
+        border-radius: 10px;
+    background-color: rgb(44, 118, 184);
+        opacity: 0.4;
+            margin-left: 4%;
+}
+
+.mainWork {
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 18px rgb(208, 153, 205);
+    position: relative;
+
+}
+.imageOverlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 120px;
+    height: 40%;
+    border-bottom-left-radius: 10px ;
+        border-bottom-right-radius: 10px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.5) 25%, rgba(0, 0, 0, 0) 100%);
+    display: flex;
+    align-items:  center;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 3px;
+
+}
+
+.companyLinkContainer {
+    margin-top: 10px;
+    width: 50px;
+    height: 15px; 
+    /* background-color:#6c2b63 ; */
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    /* border: 2px solid aliceblue; */
+    /* color: #6c2b63; */
+
+}
+
+.imageStyles {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.imageStylesResearch {
+    height: auto;
+    border-radius: 10px;
+            box-shadow: 4px 4px 4px rgb(66, 51, 64);
+}
+
+.imageStylesMain {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.mainWorkWrapper {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainDesignationText {
+    margin-top: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    overflow-wrap: break-word;
+    text-align: center;
+    text-shadow: 0px 0px 18px rgb(208, 153, 205);
+    display: flex;
+    flex-direction: column;
+    max-height: 40px;
+}
+
+.disabledWork {
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+.workWrapperDetailed {
+    height: 200%;
+    width: 0%;
+    position: absolute;
+    border-radius: 25px;
+    opacity: 0;
+    top:0;
+    left: 0;
+    z-index: 2;
+    background-color: rgb(241, 234, 234, 0.3);
+    transition: opacity 2s;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    padding-top: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    visibility: hidden;
+}
+
+.back {
+    height: 25px;
+    width: 25px;
+    align-self: flex-end;
+    margin-right: 10px;
+    color : #5e3368;
+}
+
+.expanded {
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.hidden {
+    visibility: hidden;
+}
+.hiddenD {
+    visibility: hidden;
+    display: none;
+}
+
+.workTitle {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #6c2b63;
+    font-size: 10px;
+
+}
+
+.workplaceTitle {
+    margin-top: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fdf8fd;
+    font-size: 8px;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pillContainer {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skillPillOne {
+    border-radius: 15px;
+    height: 20px;
+    padding: 12px;
+    background-color: #FFDCCC;
+    min-width: 30px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6c2b63;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.skillPillTwo {
+    border-radius: 15px;
+    height: 20px;
+    padding: 12px;
+    background-color: #FCB1A6;
+    min-width: 30px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6c2b63;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.skillPillThree {
+    border-radius: 15px;
+    height: 20px;
+    padding: 12px;
+    background-color: #EF7A85;
+    min-width: 30px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6c2b63;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.workplaceContent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.workplaceImage {
+    align-self: flex-start;
+    padding-top: 45px;
+    height: 100%;
+}
+
+
+.innerImage {
+    width: 60px;
+    height: 60px;
+}
+
+.workplaceRight {
+    max-width: 450px;
+    margin-left: 30px;
+}
+
+.workplaceLink {
+    color: #6c2b63;
+    font-weight: bold;
+        text-shadow: 0 0 5px rgba(161, 64, 173, 0.4);
+        cursor: pointer;
+        margin-left: 2px;
+}
+
+.workplaceList {
+    color: #faf7f9;
+    font-weight: bold;
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 0 0 5px rgba(183, 177, 184, 0.4);
+    max-width: 100%;
+}
+
+.workHighlights {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+    height: 100px;
+    background-color:#6c2b63;
+   border-radius: 12px;
+    padding: 20px;
+    background-color: rgb(241, 234, 234, 0.3);
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+
+
+
+.workHighlightsTop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: fit-content;
+    font-size: 12px;
+        color: #faf7f9;
+        font-weight: bold;
+            text-shadow: 0 0 5px rgba(183, 177, 184, 0.4);
+            text-align: center;
+            margin-bottom: 12px;
+}
+
+.workHighlightsBottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: fit-content;
+
+    font-size: 12px;
+    color: #faf7f9;
+    font-weight: bold;
+    height: 100%;
+    text-shadow: 0 0 5px rgba(183, 177, 184, 0.4);
+    text-align: center;
+}
+
+.researchProjs {
+    margin-top: 50px;
+    width : 100%; 
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.researchProjImageContainer {
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    padding-left: 0;
+}
+
+.moreIcon {
+    align-self: center;
+}
+
+
+.researchProjDetailsContainer {
+    flex: 2;
+    height: fit-content;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+}
+
+.researchProjImage {
+    width: 60%;
+    height: 60%;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px rgb(66, 51, 64);
+}
+
+.overlayTop {
+    position: sticky;
+    width: 100%;
+    height: 40px;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(rgba(134, 55, 123, 1), rgba(134, 55, 123, 0.9), rgba(134, 55, 123, 0.8), rgba(134, 55, 123, 0.7), rgba(134, 55, 123, 0.5), rgba(134, 55, 123, 0.3), rgba(134, 55, 123, 0.2), rgba(134, 55, 123, 0.1));
+}
+
+.overlayBottom {
+    position: sticky;
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(rgba(134, 55, 123, 0.1), rgba(134, 55, 123, 0.2), rgba(134, 55, 123, 0.3), rgba(134, 55, 123, 0.5), rgba(134, 55, 123, 0.7), rgba(134, 55, 123, 0.8), rgba(134, 55, 123, 0.9));
+}
+
+.marginResearchProjs {
+    margin-top: 225px;
+}
+
+@media screen and (max-width: 685px) {
+    .marginResearchProjs {
+        margin-top: 100px;
+    }
+
+}
+
+.projHighlight {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        
+}
+
+.projectDetailsHighlight {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding-bottom:0 ;
+        border-radius: 12px;
+       
+}
+
+.moreIcon {
+    margin-left: calc(50% - 50px + 20px);
+}
+
+.lessIcon {
+        margin-left: calc(50% - 50px + 20px);
+        transform: scale(-1);
+}
+
+.projectDetailsList {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.projectDetailsListItem {
+    margin-top: 20px;
+}
+
+.noMargin {
+    margin-top: 0;
+}
+
+.contactWrapper {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.imageStylesContact {
+    width: 50%;
+    height: auto;
+}
+
+.contactInput {
+    width: 50%;
+    margin-left: 20px;
+    height: 100%;
+}
+
+.nameContainer {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.inputFieldsWorkplace {
+    height: 30px;
+    /* font-size: 16px; */
+    width: 90%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #d67ed6;
+    margin-top: 7px;
+    margin-left: -7px;
+    padding: 7px;
+    text-overflow: ellipsis;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.inputFieldsWorkplace::placeholder {
+    color: white;
+    opacity: 0.9;
+}
+
+.inputFieldsWorkplace:focus {
+    border: none;
+    border-bottom: 3px solid #d67ed6;
+    outline: none;
+}
+
+.nameHeading {
+    font-weight: bold;
+}
+
+.marginClass {
+    margin-top: 17px;
+}
+
+
+.textArea {
+    width: 90%;
+    height: 140px;
+    resize: none;
+    margin-left: -7px;
+    margin-top: 7px;
+    padding: 7px;
+    text-overflow: ellipsis;
+    /* font-size: 16px; */
+    background-color: transparent;
+    border: 2px solid #d67ed6;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.textArea:focus {
+    border: 3px solid #d67ed6;
+    outline: none;
+}
+
+.textArea::placeholder {
+    color: white;
+    opacity: 0.9;
+}
+
+@media screen and (max-width: 665px) {
+   .imageStylesContact {
+    display: none;
+   }
+
+   .contactInput {
+    width: 100%;
+    margin-left: 0;
+   }
+
+   .contactWrapper {
+    justify-content: center;
+    margin-left: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+   }
+
+   .inputFieldsWorkplace {
+    width: 100%;
+   }
+
+   .textArea {
+    width: 100%;
+   }
+
+   
+   
+}
+
+.contactHeading {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.contactHeadingText {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+
+}
+
+.buttonWrapper {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    /* background-color: #faf7f9; */
+}
+
+.sendButton {
+    display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        height: 40px;
+        padding: 15px;
+        width: fit-content;
+        border-radius: 50px;
+        background-color: #fdf8fd;
+            color: #6c2b63;
+            border: 3px solid #6c2b63;
+            cursor: pointer;
+}
+
+.loadingContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    padding: 15px;
+    width: fit-content;
+    color: #6c2b63;
+}
+
+.sendText {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-right: 15px;
+        font-weight: bold;
+}
+
+.bouncingLoader {
+    display: flex;
+    justify-content: center;
+}
+
+.bouncingLoader>div {
+    width: 16px;
+    height: 16px;
+    margin: 3px 6px;
+    border-radius: 50%;
+    background-color: #f4edf4;
+    opacity: 1;
+    animation: bouncingLoader 0.6s infinite alternate;
+}
+
+@keyframes bouncingLoader {
+    to {
+        opacity: 0.1;
+        transform: translateY(-10px);
+    }
+}
+
+.bouncingLoader>div:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.bouncingLoader>div:nth-child(3) {
+    animation-delay: 0.4s;
+}
