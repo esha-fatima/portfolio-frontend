@@ -44,13 +44,17 @@ export default function Contact() {
             };
             //sendEmail();
             const response = axios
-              .post("http://localhost:3001/send-email", dataToSend)
+              .post(
+                "https://portfolio-backend-uzko.onrender.com/send-email",
+                dataToSend
+              )
               .then((r: any) => {
                 console.log("succes response is", r);
                 setIsSent("sent");
                 //timeouttttttt and set it to send again
               })
               .catch((e: any) => {
+                console.log("yooo");
                 console.log("error is ", e);
                 setIsSent("error");
                 //timeoutt and thennnnnnnnnn change it to send again

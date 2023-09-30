@@ -54,13 +54,13 @@
     color: transparent;
     align-self: center;
     border-color: #d6afd6;
-    border-width: 5px; 
+    border-width: 10px; 
 }
 
  .arrow:hover {
     border-color: #d6afd6;
     border-width: 5px;
-    box-shadow: -4px  -4px 4px #d6afd6;;
+    box-shadow: -3px  -3px 3px #d6afd6;;
  }
 
  .arrow.next.disabled{

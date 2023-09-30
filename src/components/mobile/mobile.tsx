@@ -820,7 +820,10 @@ export default function Mobile() {
           };
           //sendEmail();
           const response = axios
-            .post("http://localhost:3001/send-email", dataToSend)
+            .post(
+              "https://portfolio-backend-uzko.onrender.com/send-email",
+              dataToSend
+            )
             .then((r: any) => {
               setIsSent("sent");
               console.log("succes response is", r);
