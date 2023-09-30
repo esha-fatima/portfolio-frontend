@@ -51,7 +51,7 @@ export default function Projects() {
     </>,
     <>
       The underlying system of servers was wired up in a distributed environment
-      with susceptibility to{" "}
+      with susceptibility to
       <b>
         partition, nodes failing, and stale values being transmitted between
         nodes coming alive after failure
@@ -120,25 +120,26 @@ export default function Projects() {
       <li className={styles.projectDescriptionListItem}>
         At the framework level, my contribution includes implementing a system
         of annotations within C code that makes available the user annotations
-        and annotated entities within <b>LLVM passes </b>at IR level. Additionally, I
-        implemented several approximate computing LLVM passes: a
-        <b> loop-perforation pass </b>that increments an annotated loop’s inductive
-        variable by a certain annotated amount; a <b> function skipping pass </b> that
-        skips every nth function call where n is the user-annotated variable; a
-       <b> smoothing pass </b>that clusters constant-initialized integers based on
-        Euclidean distance proximity - it uses each cluster mean to initialize
-        the corresponding variables with its respective cluster mean,
-        accordingly replace all usages and removes unused variables.
+        and annotated entities within <b>LLVM passes </b>at IR level.
+        Additionally, I implemented several approximate computing LLVM passes: a
+        <b> loop-perforation pass </b>that increments an annotated loop’s
+        inductive variable by a certain annotated amount; a{" "}
+        <b> function skipping pass </b> that skips every nth function call where
+        n is the user-annotated variable; a<b> smoothing pass </b>that clusters
+        constant-initialized integers based on Euclidean distance proximity - it
+        uses each cluster mean to initialize the corresponding variables with
+        its respective cluster mean, accordingly replace all usages and removes
+        unused variables.
       </li>
       <li className={styles.projectDescriptionListItem}>
-        At the use case level, my contribution includes implementing <b> error
-        propagation techniques </b> that quantify an error bound due to net
-        approximations implemented via our framework. This is done by gathering
-        all instruction level error bounds and their usage within different
-        areas of the program. Altogether, this allows researchers to derive
-        error bounds as a result of approximations and make a numerically backed
-        decision in a tradeoff between energy availability and accuracy. Our
-        project is targeted towards a publication that shall empirically
+        At the use case level, my contribution includes implementing{" "}
+        <b> error propagation techniques </b> that quantify an error bound due
+        to net approximations implemented via our framework. This is done by
+        gathering all instruction level error bounds and their usage within
+        different areas of the program. Altogether, this allows researchers to
+        derive error bounds as a result of approximations and make a numerically
+        backed decision in a tradeoff between energy availability and accuracy.
+        Our project is targeted towards a publication that shall empirically
         contribute to research focusing on using approximate computing in
         energy-sensitive IoT deployments.
       </li>
@@ -158,7 +159,7 @@ export default function Projects() {
         Ensured log completeness and consistency using persistent state and
         volatile state on all servers. The persistent storage is configured to
         store the latest term, and log whereas the volatile state keeps track of
-        the latest log entry index written toi state machine and the latest log
+        the latest log entry index written to state machine and the latest log
         entry index committed. The leader keeps track of the next index of logs
         that need to be sent to ensure consistency for each of the followers.
       </li>
@@ -177,7 +178,7 @@ export default function Projects() {
         in by the students and further propagated to the tutor for grading.
       </li>
     </ul>,
-    
+
     <ul>
       <li className={styles.projectDescriptionListItem}>
         The dataset was first segmented to contain an equal number of positive
@@ -337,7 +338,9 @@ export default function Projects() {
             }}
             className={styles.back}
           />
-          <div className={styles.projectTitle}>{projectTitles[currentProject]}</div>
+          <div className={styles.projectTitle}>
+            {projectTitles[currentProject]}
+          </div>
           <div className={styles.projectHighlightDetailed}>
             <Image
               className={`${styles.imageStyles}`}
