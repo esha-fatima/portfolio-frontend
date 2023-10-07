@@ -334,6 +334,8 @@ export default function Projects() {
             onClick={() => {
               handleClick(-1);
             }}
+            width={40}
+            height={40}
             className={styles.back}
           />
           <div className={styles.projectTitle}>
