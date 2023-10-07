@@ -306,7 +306,7 @@ height: 340px;
    
 }
 
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 1600px) {
     .projectContainerTerminating {
             margin-left: 100px;
             scale: 1;
