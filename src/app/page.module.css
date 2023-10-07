@@ -89,9 +89,11 @@
 
 .aboutContent {
   width: 100%;
-  padding-top: 30px;
-  height: 495px;
   z-index: 16;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: fixed;
   margin-top: 100px;
   overflow: hidden;
@@ -155,26 +157,26 @@ margin-top: 75px;
     justify-content: center;
 }
 
-@media screen and (max-width: 1600px) {
+
+@media screen and (max-width: 3000px) {
   .aboutContent {
-    margin-top: 8%;
-  }
-
-
-
-}
-
-@media screen and (max-width: 1400px) {
-  .aboutContent {
-  margin-top: 10%;
+  scale:1.5;
   }
 
 }
 
-@media screen and (max-width: 1330px) {
+@media screen and (max-width: 1900px) {
   .aboutContent {
-    margin-top: 12%;
+    scale: 1.25;
   }
 
 }
+
+@media screen and (max-width: 1700px) {
+  .aboutContent {
+    scale: 1;
+  }
+
+}
+
 
