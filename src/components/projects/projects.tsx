@@ -240,8 +240,6 @@ export default function Projects() {
           <Image
             className={`${styles.imageStyles}`}
             src={kahaaniThumbnail}
-            width={150}
-            height={150}
             alt="Picture of the author"
           />
         </div>

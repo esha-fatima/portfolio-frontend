@@ -118,6 +118,8 @@
 
 .imageStyles {
     border-radius: 8px;
+    width: 100%;
+    height: 100%;
 }
 
 .hidden {
@@ -251,73 +253,77 @@ font-size: 18px;
 @media screen and (max-width: 3000px) {
 
     .projectContainerTerminating {
-        margin-left: 10%;
-        scale:2;
+        margin-left: 6%;
     }
 
     .projectContainerTerminatingEnd {
-        margin-right: 10%;
-                scale: 2;
+        margin-right:6%;
     }
 
-         .projectContainer {
-             scale: 2;
-         }
+    .projectHighlight {
+        width: 260px;
+        height: 260px;
+    }
 
     .projectsSupportLarge {
-        height: 550px;
+        height: 600px;
+        width: 14px;
 
     }
     .projectsSupportMedium {
-        height: 470px;
+        height: 510px;
+        width: 14px;
     }
 
     .projectsSupportSmall {
-height: 390px;
+        height: 440px;
+        width: 14px;
     }
 
 }
 
 @media screen and (max-width: 1900px) {
     .projectContainerTerminating {
-            margin-left: 6%;
-                    scale: 1.5;
-        }
-                .projectContainer {
-                    scale: 1.5;
-                }
+        margin-left: 4%;
+    }
+
+    .projectHighlight {
+        width: 210px;
+        height: 210px;
+    }
     
-        .projectContainerTerminatingEnd {
-            margin-right: 6%;
-            scale: 1.5;
-        }
+    .projectContainerTerminatingEnd {
+        margin-right: 4%;
+    }
 
     .projectsSupportLarge {
         height: 500px;
+        width: 8px;
     }
 
     .projectsSupportMedium {
         height: 420px;
+        width: 8px;
     }
 
     .projectsSupportSmall {
-height: 340px;
+        height: 340px;
+        width: 8px;
     }
    
 }
 
 @media screen and (max-width: 1600px) {
     .projectContainerTerminating {
-            margin-left: 100px;
-            scale: 1;
-        }
-        .projectContainer {
-            scale: 1;
-        }
-        .projectContainerTerminatingEnd {
-            margin-right: 100px;
-            scale: 1;
-        }
+        margin-left: 100px;
+    }
+    .projectHighlight {
+        width: 150px;
+        height: 150px;
+    }
+    .projectContainerTerminatingEnd {
+        margin-right: 100px;
+    }
 
     .projectsSupportLarge {
        height: 430px;
