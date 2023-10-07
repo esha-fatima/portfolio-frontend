@@ -130,17 +130,16 @@ margin-top: 75px;
 
 .workContentTerminating {
   width: 100%;
-  height: 550px;
+  height: 80vh;
   z-index: 16;
   position: fixed;
   overflow: scroll;
   margin-top: 75px;
   display: flex;
   flex-direction: row;
-  padding-top: 20px;
-  padding-bottom: 20px;
   overflow-x: scroll;
   justify-content: center;
+  align-items: center;
 }
 .workContent {
   width: 100%;
@@ -163,19 +162,29 @@ margin-top: 75px;
   scale:1.5;
   }
 
+    .workContentTerminating {
+      scale: 1.5;
+    }
+
 }
 
 @media screen and (max-width: 1900px) {
   .aboutContent {
     scale: 1.25;
   }
-
+.workContentTerminating {
+  scale: 1.25;
+}
 }
 
 @media screen and (max-width: 1700px) {
   .aboutContent {
     scale: 1;
   }
+
+    .workContentTerminating {
+      scale: 1;
+    }
 
 }
 

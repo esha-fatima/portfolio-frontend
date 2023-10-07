@@ -40,9 +40,13 @@
     height: fit-content;
 }
 
+.sectionWrapper {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
 .arrow {
     display: inline-block;
-    position: absolute;
     width: 60px;
     height: 60px;
     background: transparent;
