@@ -247,3 +247,87 @@ font-size: 18px;
 .projectDescriptionListItem::marker {
     font-size: 22px;
 }
+
+@media screen and (max-width: 3000px) {
+
+    .projectContainerTerminating {
+        margin-left: 10%;
+        scale:2;
+    }
+
+    .projectContainerTerminatingEnd {
+        margin-right: 10%;
+                scale: 2;
+    }
+
+         .projectContainer {
+             scale: 2;
+         }
+
+    .projectsSupportLarge {
+        height: 550px;
+
+    }
+    .projectsSupportMedium {
+        height: 470px;
+    }
+
+    .projectsSupportSmall {
+height: 390px;
+    }
+
+}
+
+@media screen and (max-width: 1900px) {
+    .projectContainerTerminating {
+            margin-left: 6%;
+                    scale: 1.5;
+        }
+                .projectContainer {
+                    scale: 1.5;
+                }
+    
+        .projectContainerTerminatingEnd {
+            margin-right: 6%;
+            scale: 1.5;
+        }
+
+    .projectsSupportLarge {
+        height: 500px;
+    }
+
+    .projectsSupportMedium {
+        height: 420px;
+    }
+
+    .projectsSupportSmall {
+height: 340px;
+    }
+   
+}
+
+@media screen and (max-width: 1700px) {
+    .projectContainerTerminating {
+            margin-left: 100px;
+            scale: 1;
+        }
+        .projectContainer {
+            scale: 1;
+        }
+        .projectContainerTerminatingEnd {
+            margin-right: 100px;
+            scale: 1;
+        }
+
+    .projectsSupportLarge {
+       height: 430px;
+    }
+
+    .projectsSupportMedium {
+        height: 350px;
+    }
+
+    .projectsSupportSmall {
+        height:270px
+    }
+}
