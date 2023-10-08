@@ -358,16 +358,6 @@ export default function Projects() {
               />
             </div>
           </div>
-          <div className={`${styles.overlayTop} ${isTop ? styles.hidden : ""}`}>
-            {" "}
-          </div>
-          <div
-            className={`${styles.overlayBottom} ${
-              isBottom ? styles.hidden : ""
-            }`}
-          >
-            {" "}
-          </div>
 
           <div
             onScroll={(e) => {
@@ -375,6 +365,7 @@ export default function Projects() {
             }}
             className={`${styles.projectDetailsWrapper} `}
           >
+           
             <div className={styles.projectDescription}>
               <p className={styles.projectDescriptionTop}>
                 {projectDescription[currentProject]}
