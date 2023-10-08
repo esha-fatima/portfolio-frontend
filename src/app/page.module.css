@@ -106,14 +106,12 @@
     z-index: 16;
     position: fixed;
     overflow: hidden;
-display: flex;
-flex-direction: row;
-/* background-color: antiquewhite; */
-
-justify-content:space-between;
-height: 97vh;
-align-items: flex-end;
-margin-top: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    height: 97vh;
+    align-items: flex-end;
+    margin-top: 75px;
 }
 
 .contactContent {
@@ -159,7 +157,7 @@ margin-top: 75px;
 
 @media screen and (max-width: 3000px) {
   .aboutContent {
-  scale:1.5;
+  scale:1.3;
   }
 
     .workContentTerminating {

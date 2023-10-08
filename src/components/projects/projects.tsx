@@ -322,56 +322,66 @@ export default function Projects() {
       </div>
       <div
         className={`${
-          currentProject === -1 ? styles.hidden : styles.projectDetailsContainer
+          currentProject === -1 ? styles.hidden : styles.dummyWrapper
         }`}
       >
         <div
-          className={`${styles.projectContainerTerminatingDetailed} ${
-            currentProject === -1 ? styles.hidden : ""
+          className={`${
+            currentProject === -1
+              ? styles.hidden
+              : styles.projectDetailsContainer
           }`}
         >
-          <IoMdArrowBack
-            onClick={() => {
-              handleClick(-1);
-            }}
-            width={40}
-            height={40}
-            className={styles.back}
-          />
-          <div className={styles.projectTitle}>
-            {projectTitles[currentProject]}
-          </div>
-          <div className={styles.projectHighlightDetailed}>
-            <Image
-              className={`${styles.imageStyles}`}
-              src={projectImages[currentProject]}
-              width={350}
-              height={350}
-              alt="Picture of the author"
+          <div
+            className={`${styles.projectContainerTerminatingDetailed} ${
+              currentProject === -1 ? styles.hidden : ""
+            }`}
+          >
+            <IoMdArrowBack
+              onClick={() => {
+                handleClick(-1);
+              }}
+              width={40}
+              height={40}
+              className={styles.back}
             />
+            <div className={styles.projectTitle}>
+              {projectTitles[currentProject]}
+            </div>
+            <div className={styles.projectHighlightDetailed}>
+              <Image
+                className={`${styles.imageStyles}`}
+                src={projectImages[currentProject]}
+                width={350}
+                height={350}
+                alt="Picture of the author"
+              />
+            </div>
           </div>
-        </div>
-        <div className={`${styles.overlayTop} ${isTop ? styles.hidden : ""}`}>
-          {" "}
-        </div>
-        <div
-          className={`${styles.overlayBottom} ${isBottom ? styles.hidden : ""}`}
-        >
-          {" "}
-        </div>
+          <div className={`${styles.overlayTop} ${isTop ? styles.hidden : ""}`}>
+            {" "}
+          </div>
+          <div
+            className={`${styles.overlayBottom} ${
+              isBottom ? styles.hidden : ""
+            }`}
+          >
+            {" "}
+          </div>
 
-        <div
-          onScroll={(e) => {
-            handleScroll(e);
-          }}
-          className={`${styles.projectDetailsWrapper} `}
-        >
-          <div className={styles.projectDescription}>
-            <p className={styles.projectDescriptionTop}>
-              {projectDescription[currentProject]}
-            </p>
-            <div className={styles.projectDescriptionList}>
-              {projectPoints[currentProject]}
+          <div
+            onScroll={(e) => {
+              handleScroll(e);
+            }}
+            className={`${styles.projectDetailsWrapper} `}
+          >
+            <div className={styles.projectDescription}>
+              <p className={styles.projectDescriptionTop}>
+                {projectDescription[currentProject]}
+              </p>
+              <div className={styles.projectDescriptionList}>
+                {projectPoints[currentProject]}
+              </div>
             </div>
           </div>
         </div>
