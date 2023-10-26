@@ -105,19 +105,19 @@ export default function Work({ updateCurrentSection }: WorkProps) {
   const workplacePoints = [
     <ul className={styles.workplaceList}>
       <li className={styles.listItem}>
-        Worked explicitly on the development of Premium features for the
+        Work majorly on the development of Premium features for the
         product. These include customized email publishing options, managing and
         analyzing email campaign metrics, across-the-board social media
         publishing, and collaborative spaces for teams.
       </li>
       <br />
       <li className={styles.listItem}>
-        Created UI components in ReactTS that comply with the underlying design
+        Create UI components in ReactTS that comply with the underlying design
         handoffs and in-house Design System specifications.
       </li>
       <br />
       <li className={styles.listItem}>
-        Resolved out bugs and refactor legacy code to ensure codebase
+        Resolve out bugs and refactor legacy code to ensure codebase
         readability and scalability.
       </li>
     </ul>,
@@ -172,7 +172,7 @@ export default function Work({ updateCurrentSection }: WorkProps) {
       <br />
       <li className={styles.listItem}>
         Conducted relevant tutorials for the student project to facilitate
-        students (in a class of 160+) with the student project.
+        students (in a class of 160+).
       </li>
       <br />
       <li className={styles.listItem}>

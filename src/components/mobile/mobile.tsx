@@ -208,19 +208,19 @@ export default function Mobile() {
   const workplacePoints = [
     <ul className={styles.workplaceList}>
       <li className={styles.listItem}>
-        Worked explicitly on the development of Premium features for the
+        Work majorly on the development of Premium features for the
         product. These include customized email publishing options, managing and
         analyzing email campaign metrics, across-the-board social media
         publishing, and collaborative spaces for teams.
       </li>
       <br />
       <li className={styles.listItem}>
-        Created UI components in ReactTS that comply with the underlying design
+        Create UI components in ReactTS that comply with the underlying design
         handoffs and in-house Design System specifications.
       </li>
       <br />
       <li className={styles.listItem}>
-        Resolved out bugs and refactor legacy code to ensure codebase
+        Resolve out bugs and refactor legacy code to ensure codebase
         readability and scalability.
       </li>
     </ul>,
@@ -275,7 +275,7 @@ export default function Mobile() {
       <br />
       <li className={styles.listItem}>
         Conducted relevant tutorials for the student project to facilitate
-        students (in a class of 160+) with the student project.
+        students (in a class of 160+).
       </li>
       <br />
       <li className={styles.listItem}>
@@ -443,7 +443,7 @@ export default function Mobile() {
       </b>
       . The key-value server guarantees linearizability, safety of logs
       committed on the state machine, and single leader guarantee. RAFT
-      algorithm was implemented in GoLang to produce such a consistent system
+      algorithm was implemented in GoLang to produce such a  system
       that when provided a maximum of (N-1)/2 failures, the system would ensure
       consistency.
     </>,
@@ -519,7 +519,7 @@ export default function Mobile() {
           where n is the user-annotated variable; a<b> smoothing pass </b>that
           clusters constant-initialized integers based on Euclidean distance
           proximity - it uses each cluster mean to initialize the corresponding
-          variables with its respective cluster mean, accordingly replace all
+          variables with its respective cluster mean, and accordingly replace all
           usages and removes unused variables.
         </li>
         <li className={styles.projectDetailsListItem}>
@@ -590,8 +590,7 @@ export default function Mobile() {
         <li className={styles.projectDetailsListItem}>
           Using the vectorized tokens for the documents, the conditional
           probabilities are used to attain the likelihood for each test point
-          belonging to a certain class of which the class with higher likelihood
-          forms the result of the classifier.
+          belonging to a certain class.
         </li>
       </ul>
     </>,

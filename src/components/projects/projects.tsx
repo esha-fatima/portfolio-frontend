@@ -51,15 +51,15 @@ export default function Projects() {
     </>,
     <>
       The underlying system of servers was wired up in a distributed environment
-      with susceptibility to
+      with susceptibility to{" "}
       <b>
         partition, nodes failing, and stale values being transmitted between
         nodes coming alive after failure
       </b>
       . The key-value server guarantees linearizability, safety of logs
       committed on the state machine, and single leader guarantee. RAFT
-      algorithm was implemented in GoLang to produce such a consistent system
-      that when provided a maximum of (N-1)/2 failures, the system would ensure
+      algorithm was implemented in GoLang to produce such a system that when
+      provided a maximum of (N-1)/2 failures, the system would ensure
       consistency.
     </>,
     <>
@@ -128,8 +128,8 @@ export default function Projects() {
         n is the user-annotated variable; a<b> smoothing pass </b>that clusters
         constant-initialized integers based on Euclidean distance proximity - it
         uses each cluster mean to initialize the corresponding variables with
-        its respective cluster mean, accordingly replace all usages and removes
-        unused variables.
+        its respective cluster mean, and accordingly replace all usages and
+        removes unused variables.
       </li>
       <li className={styles.projectDescriptionListItem}>
         At the use case level, my contribution includes implementing{" "}
@@ -190,8 +190,7 @@ export default function Projects() {
       <li className={styles.projectDescriptionListItem}>
         Using the vectorized tokens for the documents, the conditional
         probabilities are used to attain the likelihood for each test point
-        belonging to a certain class of which the class with higher likelihood
-        forms the result of the classifier.
+        belonging to a certain class.
       </li>
     </ul>,
   ];
@@ -365,7 +364,6 @@ export default function Projects() {
             }}
             className={`${styles.projectDetailsWrapper} `}
           >
-           
             <div className={styles.projectDescription}>
               <p className={styles.projectDescriptionTop}>
                 {projectDescription[currentProject]}
